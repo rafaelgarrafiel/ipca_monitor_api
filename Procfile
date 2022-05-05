@@ -1,1 +1,1 @@
-web: flask run -h https://ipca-monitor-api.herokuapp.com
+web: gunicorn app.app:create_app
