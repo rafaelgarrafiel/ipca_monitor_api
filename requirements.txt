@@ -1,0 +1,6 @@
+flask
+flask-restx
+dynaconf
+python-dotenv
+pandas
+openpyxl

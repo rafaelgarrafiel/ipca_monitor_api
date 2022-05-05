@@ -1,0 +1,12 @@
+[default]
+DEBUG = false
+EXTENSIONS = [
+    "app.plugins.api:init_app",
+    "app.api.routes:init_app",
+]
+
+[development]
+DEBUG = true
+
+[production]
+SQLALCHEMY_TRACK_MODIFICATIONS = false
